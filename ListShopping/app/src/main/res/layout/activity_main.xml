@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    tools:context="com.example.firasyanrizki.listshopping.MainActivity">
+
+    <TextView
+        android:id="@+id/paket_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Paket 1"
+        android:textColor="@color/textView_color" />
+
+    <TextView
+        android:id="@+id/paket_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/paket_1"
+        android:layout_alignStart="@+id/paket_1"
+        android:layout_below="@+id/paket_1"
+        android:layout_marginTop="16dp"
+        android:text="Paket 2"
+        android:textColor="@color/textView_color" />
+
+    <TextView
+        android:id="@+id/paket_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/paket_2"
+        android:layout_alignStart="@+id/paket_2"
+        android:layout_below="@+id/paket_2"
+        android:layout_marginTop="17dp"
+        android:text="Paket 3"
+        android:textColor="@color/textView_color" />
+
+    <TextView
+        android:id="@+id/paket_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/paket_3"
+        android:layout_alignStart="@+id/paket_3"
+        android:layout_below="@+id/paket_3"
+        android:layout_marginTop="19dp"
+        android:text="Paket 4"
+        android:textColor="@color/textView_color" />
+
+    <TextView
+        android:id="@+id/paket_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/paket_4"
+        android:layout_alignStart="@+id/paket_4"
+        android:layout_below="@+id/paket_4"
+        android:layout_marginTop="16dp"
+        android:text="Paket 5"
+        android:textColor="@color/textView_color" />
+
+    <TextView
+        android:id="@+id/paket_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/paket_5"
+        android:layout_alignStart="@+id/paket_5"
+        android:layout_below="@+id/paket_5"
+        android:layout_marginTop="13dp"
+        android:text="Paket 6"
+        android:textColor="@color/textView_color" />
+
+    <TextView
+        android:id="@+id/paket_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/paket_6"
+        android:layout_alignStart="@+id/paket_6"
+        android:layout_centerVertical="true"
+        android:text="Paket 7"
+        android:textColor="@color/textView_color" />
+
+    <TextView
+        android:id="@+id/paket_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/paket_7"
+        android:layout_alignStart="@+id/paket_7"
+        android:layout_below="@+id/paket_7"
+        android:layout_marginTop="11dp"
+        android:text="Paket 8"
+        android:textColor="@color/textView_color" />
+
+    <TextView
+        android:id="@+id/paket_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/paket_8"
+        android:layout_alignStart="@+id/paket_8"
+        android:layout_below="@+id/paket_8"
+        android:layout_marginTop="15dp"
+        android:text="Paket 9"
+        android:textColor="@color/textView_color" />
+
+    <TextView
+        android:id="@+id/paket_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/paket_9"
+        android:layout_alignStart="@+id/paket_9"
+        android:layout_below="@+id/paket_9"
+        android:layout_marginTop="15dp"
+        android:text="Paket 10"
+        android:textColor="@color/textView_color" />
+
+    <Button
+        android:id="@+id/button_addItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paket_10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="@android:color/white"
+        android:onClick="goToRecentList"
+        android:text="ADD PAKET" />
+
+</RelativeLayout>
